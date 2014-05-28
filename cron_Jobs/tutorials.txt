@@ -1,4 +1,5 @@
 1. command line confix crontab
    crontab -e
 create file *.sh
-Note: chmod 777 file create
+Note: - chmod 777 file create
+      - After edit crontab -e Forget restart cron: sudo restart cron
