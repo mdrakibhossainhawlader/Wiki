@@ -3,3 +3,4 @@
 create file *.sh
 Note: - chmod 777 file create
       - After edit crontab -e Forget restart cron: sudo restart cron
+      - view log:  grep CRON /var/log/syslog
