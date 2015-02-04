@@ -4,3 +4,4 @@ create file *.sh
 Note: - chmod 777 file create
       - After edit crontab -e Forget restart cron: sudo restart cron
       - view log:  grep CRON /var/log/syslog
+http://serverfault.com/questions/274434/cron-permission-denied-on-everything
