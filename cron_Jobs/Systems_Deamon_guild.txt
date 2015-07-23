@@ -1,0 +1,16 @@
+http://kvz.io/blog/2009/01/09/create-daemons-in-php/
+
+
+Ubuntu install: pear install -f System_Daemon
+
+
+
+Forder: cron/dev
+	sudo chown www-data:www-data deamon_sendmail.sh
+Forder: deamon/dev
+	 sudo ./daemon_sendmail.php
+	 
+Stop daemon
+	killall -9 daemon_sendmail.php
+
+tail -f /var/log/logparser.log
